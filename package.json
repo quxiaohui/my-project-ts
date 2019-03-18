@@ -1,0 +1,48 @@
+{
+  "name": "invoice-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@antv/g2": "^3.4.10",
+    "@types/numeral": "0.0.25",
+    "ant-design-pro": "^2.2.1",
+    "antd": "^3.13.5",
+    "bizcharts": "^3.4.3",
+    "connected-react-router": "^4.5.0",
+    "ms-react-framework": "^0.1.0",
+    "react": "^16.5.2",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts-antd": "2.17.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-saga": "^0.16.0",
+    "typesafe-actions": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts-antd start",
+    "build": "react-scripts-ts-antd build",
+    "test": "react-scripts-ts-antd test --env=jsdom",
+    "eject": "react-scripts-ts-antd eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.11.7",
+    "@types/react": "^16.8.3",
+    "@types/react-copy-to-clipboard": "^4.2.6",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^6.0.9",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux-logger": "^3.0.6",
+    "redux-logger": "^3.0.6",
+    "typescript": "^3.1.2"
+  },
+  "proxy": {
+    "/invoice": {
+      "target": "http://192.168.2.141:8082",
+      "ws": true
+    }
+  }
+}

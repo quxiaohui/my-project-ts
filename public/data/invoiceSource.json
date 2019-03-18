@@ -1,0 +1,21 @@
+{
+  "result":0,
+  "detail":"",
+  "data":{
+      "records":[
+          {
+              "invoiceSource":"商城",
+              "value":1
+          },
+          {
+              "invoiceSource":"scm",
+              "value":2
+          },
+          {
+              "invoiceSource":"差旅",
+              "value":3
+          }
+      ],
+      "extra":null
+  }
+}

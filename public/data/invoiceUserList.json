@@ -1,0 +1,18 @@
+{
+  "result": 0,
+  "detail": "OK",
+  "data": {
+      "records": [{
+          "requestUserId": 1,        
+          "requestUserName": "战三"  
+      }, {
+          "requestUserId": 2,
+          "requestUserName": "李四"
+      }, {
+          "requestUserId": 3,
+          "requestUserName": "王五"
+      }
+      ]
+  },
+  "extra":null
+}
